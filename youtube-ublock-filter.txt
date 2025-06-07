@@ -1,0 +1,3 @@
+! Title-based filter for YouTube
+! Blocks videos containing political names and ad-heavy brands
+youtube.com##ytd-video-renderer:has-text(/Tusk|Kaczyński|Sikorski|Schetyna|Ziobro|Komorowski|Kosiniak-Kamysz|Hołownia|Duda|Czarnek|Grodzki|Błaszczak|Nawrocki|Trzaskowski|Nike|Vans|Netflix|Prime|Red\s?Bull|Monster|Gymshark|Starbucks|G\s?Fuel|HelloFresh/i)
