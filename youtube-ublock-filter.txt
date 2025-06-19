@@ -1,3 +1,44 @@
-! Title-based filter for YouTube
-! Blocks videos containing political names and ad-heavy brands
-youtube.com##ytd-video-renderer:has-text(/Tusk|Kaczyński|Sikorski|Schetyna|Ziobro|Komorowski|Kosiniak-Kamysz|Hołownia|Duda|Czarnek|Grodzki|Błaszczak|Nawrocki|Trzaskowski|Nike|Vans|Netflix|Prime|Red\s?Bull|Monster|Gymshark|Starbucks|G\s?Fuel|HelloFresh/i)
+! POLISH POLITICS - TOPIC
+! filter for starting page
+youtube.com##ytd-rich-grid-media:has-text(/Tusk|Kaczyński|Sikorski|Schetyna|Ziobro|Komorowski|Kosiniak|Hołownia|Duda|Czarnek|Grodzki|Błaszczak|Nawrocki|Trzaskowski/i)
+! filter for search results
+youtube.com##ytd-video-renderer:has-text(/Tusk|Kaczyński|Sikorski|Schetyna|Ziobro|Komorowski|Kosiniak|Hołownia|Duda|Czarnek|Grodzki|Błaszczak|Nawrocki|Trzaskowski/i)
+! filter for "propositions" on left
+youtube.com##ytd-compact-video-renderer:has-text(/Tusk|Kaczyński|Sikorski|Schetyna|Ziobro|Komorowski|Kosiniak|Hołownia|Duda|Czarnek|Grodzki|Błaszczak|Nawrocki|Trzaskowski/i)
+
+! BIG TECH SPAM - TOPIC
+! filter for starting page
+youtube.com##ytd-rich-grid-media:has-text(/apple|iphone|samsung|ipad|macbook|airpods|xiaomi|huawei|oppo|sony|playstation|ps5|xbox|nintendo|switch|smartphone|earbuds/i)
+! filter for search results
+youtube.com##ytd-video-renderer:has-text(/apple|iphone|samsung|ipad|macbook|airpods|xiaomi|huawei|oppo|sony|playstation|ps5|xbox|nintendo|switch|smartphone|earbuds/i)
+! filter for "propositions" on left
+youtube.com##ytd-compact-video-renderer:has-text(/apple|iphone|samsung|ipad|macbook|airpods|xiaomi|huawei|oppo|sony|playstation|ps5|xbox|nintendo|switch|smartphone|earbuds/i)
+
+! IP FRANCHISE TROLLS - TOPIC
+! filter for starting page
+youtube.com##ytd-rich-grid-media:has-text(/netflix|disney|marvel|avengers|star\s?wars|hbo|amazon\s?prime|pok[ée]mon/i)
+! filter for search results
+youtube.com##ytd-video-renderer:has-text(/netflix|disney|marvel|avengers|star\s?wars|hbo|amazon\s?prime|pok[ée]mon/i)
+! filter for "propositions" on left
+youtube.com##ytd-compact-video-renderer:has-text(/netflix|disney|marvel|avengers|star\s?wars|hbo|amazon\s?prime|pok[ée]mon/i)
+
+! SPAMMY BRANDS - TOPIC
+! filter for starting page
+youtube.com##ytd-rich-grid-media:has-text(/nike|adidas|puma|gucci|balenciaga|supreme|louis\s?vuitton|zara|h&m|shein|ray-?ban|north\s?face|vans|starbucks|mcdonald'?s|kfc|coca[-\s]?cola|red\s?bull|monster\s?energy|pepsi|sephora|l[’']?or[ée]al|maybelline|fenty\s?beauty|dior/i)
+! filter for search results
+youtube.com##ytd-video-renderer:has-text(/nike|adidas|puma|gucci|balenciaga|supreme|louis\s?vuitton|zara|h&m|shein|ray-?ban|north\s?face|vans|starbucks|mcdonald'?s|kfc|coca[-\s]?cola|red\s?bull|monster\s?energy|pepsi|sephora|l[’']?or[ée]al|maybelline|fenty\s?beauty|dior/i)
+! filter for "propositions" on left
+youtube.com##ytd-compact-video-renderer:has-text(/nike|adidas|puma|gucci|balenciaga|supreme|louis\s?vuitton|zara|h&m|shein|ray-?ban|north\s?face|vans|starbucks|mcdonald'?s|kfc|coca[-\s]?cola|red\s?bull|monster\s?energy|pepsi|sephora|l[’']?or[ée]al|maybelline|fenty\s?beauty|dior/i)
+
+! CARS - TOPIC
+! filter for starting page
+youtube.com##ytd-rich-grid-media:has-text(/bmw|mercedes|audi|volkswagen|vw|porsche|toyota|lexus|honda|mazda|subaru|nissan|ford|chevrolet|chevy|dodge|jeep|cadillac|ferrari|lamborghini|maserati|fiat|aston\s?martin|bentley|rolls-?royce/i)
+! filter for search results
+youtube.com##ytd-video-renderer:has-text(/bmw|mercedes|audi|volkswagen|vw|porsche|toyota|lexus|honda|mazda|subaru|nissan|ford|chevrolet|chevy|dodge|jeep|cadillac|ferrari|lamborghini|maserati|fiat|aston\s?martin|bentley|rolls-?royce/i)
+! filter for "propositions" on left
+youtube.com##ytd-compact-video-renderer:has-text(/bmw|mercedes|audi|volkswagen|vw|porsche|toyota|lexus|honda|mazda|subaru|nissan|ford|chevrolet|chevy|dodge|jeep|cadillac|ferrari|lamborghini|maserati|fiat|aston\s?martin|bentley|rolls-?royce/i)
+
+
+
+
+
